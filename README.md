@@ -5,11 +5,16 @@ After generating a new project with the angular-cli (e.g. `ng new project-name`)
 ## Instructions
 
 ```bash
+ng new myProject
+
 git clone git@github.com:amrtgaber/angular2-cli-docker-files.git
-cp angular2-cli-docker-files/* angular2-cli-docker-files/.* project-path/
-cd project-path
-# Replace 'APP-NAME-HERE' in the Dockerfile and docker-compose.yml
-sed -i 's/APP-NAME-HERE/project-name/g' *
+cp angular2-cli-docker-files/* angular2-cli-docker-files/.* myProject/
+
+cd myProject
+
+# Replaces 'APP-NAME-HERE' in the Dockerfile and docker-compose.yml
+sed -i 's/APP-NAME-HERE/myProject/g' *
+
 docker-compose up
 ```
 
