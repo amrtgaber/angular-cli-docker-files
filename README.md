@@ -1,6 +1,6 @@
 # Angular 2 Cli Docker Files
 
-After generating a new project with the angular-cli (e.g. `ng new project-name`) these files can be used to dockerize the project.
+After generating a new project with the angular-cli (e.g. `ng new myProject`) these files can be used to dockerize the project.
 
 ## Instructions
 
