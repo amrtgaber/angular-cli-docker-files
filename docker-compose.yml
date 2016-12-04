@@ -9,3 +9,4 @@ services:
       - 49152:49152
     volumes:
       - .:/home/app/APP-NAME-HERE
+      - /home/app/angular2-cli-webpack-docker/node_modules
