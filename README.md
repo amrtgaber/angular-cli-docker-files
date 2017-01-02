@@ -29,7 +29,7 @@ Navigate to `localhost:4200` in your browser.
 **NOTE**: For docker toolbox you must replace 'localhost' with the machine ip. You can get the machine ip with the following command.
 
 ```bash
-docker-machine ip angular2-cli-webpack-docker
+docker-machine ip myProject
 ```
 
 ## Installing dependencies
