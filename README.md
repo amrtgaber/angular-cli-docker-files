@@ -10,7 +10,9 @@ After generating a new project with the angular-cli (e.g. `ng new myProject`) th
 ng new myProject
 
 git clone git@github.com:amrtgaber/angular2-cli-docker-files.git
-cp angular2-cli-docker-files/* angular2-cli-docker-files/.* myProject/
+cp angular2-cli-docker-files/.dockerignore myProject/
+cp angular2-cli-docker-files/docker-compose.yml myProject/
+cp angular2-cli-docker-files/Dockerfile myProject/
 
 cd myProject
 
