@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
   APP-NAME-HERE:
     container_name: APP-NAME-HERE

@@ -1,13 +1,12 @@
 FROM node:6.9.2
 
-RUN useradd --user-group --create-home --shell /bin/false app
-
 ENV APP_NAME "APP-NAME-HERE"
 ENV APP_USER "app"
 ENV HOME /home/$APP_USER
 ENV APP_DIR $HOME/$APP_NAME
 
-RUN npm install --global angular-cli
+RUN useradd --user-group --create-home --shell /bin/false $APP_USER
+RUN npm install --global @angular/cli
 
 WORKDIR $APP_DIR
 COPY package.json $APP_DIR/package.json
