@@ -1,4 +1,4 @@
-# Angular 2 Cli Docker Files
+# Angular Cli Docker Files
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -15,10 +15,10 @@ After generating a new project with the angular-cli (e.g. `ng new myProject`) th
 ```bash
 ng new myProject
 
-git clone git@github.com:amrtgaber/angular2-cli-docker-files.git
-cp angular2-cli-docker-files/.dockerignore myProject/
-cp angular2-cli-docker-files/docker-compose.yml myProject/
-cp angular2-cli-docker-files/Dockerfile myProject/
+git clone git@github.com:amrtgaber/angular-cli-docker-files.git
+cp angular-cli-docker-files/.dockerignore myProject/
+cp angular-cli-docker-files/docker-compose.yml myProject/
+cp angular-cli-docker-files/Dockerfile myProject/
 
 cd myProject
 
