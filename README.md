@@ -52,5 +52,5 @@ docker-compose up --build
 In the `Dockerfile` after the `FROM` line, add the line:
 
 ```Dockerfile
-LABEL maintainer "Your name/organization <email or homepage>"
+LABEL maintainer="Your name/organization <email or homepage>"
 ```
